@@ -1,0 +1,10 @@
+/* transition.css */
+
+body.transitioning {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+body:not(.transitioning) {
+    opacity: 1;
+}
