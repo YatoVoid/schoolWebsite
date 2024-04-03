@@ -579,8 +579,8 @@ img {
   transform: rotateY(-180deg);
 }
 .centered-section {
-  width: 50%; /* Adjust the width as needed */
-  margin: auto auto auto;
+  width: 32em; /* Adjust the width as needed */
+  margin: auto; /* Center horizontally */
   margin-bottom: 12.3em;
 }
 
@@ -1310,20 +1310,19 @@ img {
 
 
 
-
-
 .rounded.rounded-bottom {
-  border-top-left-radius: 15%;
-  border-top-right-radius: 15%;
-  width: auto;
-  height: 20em;
+  margin-left: 1.6em;
+  margin-right: 2.5em;
 }
 .footer {
   font-size: 0.5em;
-  margin-top: 4em;
   position: relative;
-  background: #13b6ea;
+  background: #78C0FF;
   font-size: 16px;
   overflow-x: hidden;
 }
+
+
+
+
 
