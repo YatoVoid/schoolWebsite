@@ -5,6 +5,14 @@
   box-sizing: border-box;
 }
 
+a.card {
+  text-decoration: none;
+}
+a.card:visited,
+a.card:focus,
+a.card:active {
+  text-decoration: none;
+}
 
 
 body {

@@ -28,15 +28,18 @@ function movePage(e, page) {
 $('.button').click(function(){
   var buttonId = $(this).attr('id');
   var modalContainerId = '#modal-container-' + buttonId;
+
+  // Optional: remove any existing classes first
+  $('#modal-container').removeAttr('class').addClass(buttonId);
   
   $(modalContainerId).removeClass('out');
   $('body').removeClass('modal-active');
   void $(modalContainerId)[0].offsetWidth;
 
-
   $(modalContainerId).addClass(buttonId);
   $('body').addClass('modal-active');
-})
+});
+
 
 $(document).on('click', '.modal-container', function(){
   $(this).addClass('out');
